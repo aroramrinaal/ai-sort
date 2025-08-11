@@ -1,9 +1,9 @@
-# ai-sort
+#ai-sort
 
 vibe-based array sorting powered by GPT.
 because `array.sort()` is too mainstream.
 
-## usage
+##usage
 
 install:
 
@@ -26,13 +26,13 @@ const result = await vibesort([5, 2, 8, 1, 9]);
 console.log(result); // [1, 2, 5, 8, 9]
 ```
 
-## test
+##test
 
 ```bash
 npm run test
 ```
 
-## dependencies
+##dependencies
 
 * openai
 * zod
