@@ -20,5 +20,13 @@
     "dotenv": "^17.2.1",
     "openai": "^5.12.2",
     "zod": "^3.25.76"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aroramrinaal/ai-sort.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aroramrinaal/ai-sort/issues"
+  },
+  "homepage": "https://github.com/aroramrinaal/ai-sort#readme"
 }
