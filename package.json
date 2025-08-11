@@ -1,0 +1,24 @@
+{
+  "name": "ai-sort",
+  "version": "1.0.0",
+  "description": "vibe-based sorting using GPT",
+  "main": "src/vibesort/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/tests/basic.test.js"
+  },
+  "keywords": [
+    "sort",
+    "ai",
+    "vibesort",
+    "gpt",
+    "meme"
+  ],
+  "author": "Mrinaal Arora",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "openai": "^5.12.2",
+    "zod": "^3.25.76"
+  }
+}

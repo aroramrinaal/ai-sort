@@ -1,0 +1,43 @@
+# ai-sort
+
+vibe-based array sorting powered by GPT.
+because `array.sort()` is too mainstream.
+
+## usage
+
+install:
+
+```bash
+npm install ai-sort
+```
+
+set your OpenAI API key:
+
+```bash
+export OPENAI_API_KEY=your_key_here
+```
+
+then use it:
+
+```js
+import { vibesort } from 'ai-sort';
+
+const result = await vibesort([5, 2, 8, 1, 9]);
+console.log(result); // [1, 2, 5, 8, 9]
+```
+
+## test
+
+```bash
+npm run test
+```
+
+## dependencies
+
+* openai
+* zod
+* dotenv (optional, for `.env` support)
+
+⚠️ requires an OpenAI API key.
+
+⚠️ experimental project — use for vibes, not for prod.
