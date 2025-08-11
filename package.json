@@ -1,7 +1,7 @@
 {
   "name": "ai-sort",
   "version": "1.0.0",
-  "description": "vibe-based sorting using GPT",
+  "description": "vibe-based array sorting powered by GPT",
   "main": "src/vibesort/index.js",
   "type": "module",
   "scripts": {
